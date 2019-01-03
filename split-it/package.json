@@ -1,0 +1,17 @@
+{
+  "name": "split-it",
+  "version": "1.0.0",
+  "description": "Verticle Spit One Page Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "single-page",
+    "one-page",
+    "bootstrap",
+    "front-end"
+  ],
+  "author": "bguardian163",
+  "license": "ISC"
+}
