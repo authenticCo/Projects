@@ -1,0 +1,12 @@
+{
+  "name": "citybear",
+  "version": "1.0.0",
+  "description": "signup form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch style/scss -o style/css"
+  },
+  "author": "bguard",
+  "license": "ISC"
+}

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600');
+
+
+$font-Mont: 'Montserrat' , sans-serif;
+
+
+
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+.bgimg{
+    position:relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .67;
+    background-size: cover;
+    background-image: url("../../images/traffic-lights-PFGV56U.jpg");
+    height: 100%;
+    z-index: -1;
+}
+#wrapper{
+    position: absolute;
+    background-color: #ffffff;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 620px;
+    width: 400px;
+    border-radius: 5px;
+}
+#inner-wrapper{
+    position: relative;
+    background-color: #335791;
+    margin: auto;
+    width: 380px;
+    height: 600px;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 3px;
+}
+.logo{
+    background-image: url("../../images/fill_logo.svg");
+    background-repeat: no-repeat;
+    width: 124px;
+    margin: 80px auto;
+    height: 120px;
+    padding-top: 60px;
+}
+#username{
+    background-color: none;
+}
+
+form{
+    width: 75%;
+    margin: 0 auto;
+    font-family: $font-Mont;
+    color: #fff;
+
+    legend{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    input{
+        width: 100%;
+        background-color: rgba(0,0,0,0) !important;
+        border: none !important;
+        border-radius: 0px !important;
+        border-bottom: 1px solid white !important;
+        outline: none !important;
+        color: #fff !important;
+        margin-top: 5px;
+        padding: 0 !important;
+    }
+    input::placeholder{
+        color: #fff !important;
+        opacity: 0.3;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .custom-btn{
+        margin-top: 10px;
+        color:#355CA6;
+        text-transform: uppercase;
+        font-weight: 600;
+        border-radius: 0 !important;
+        width: 100%;
+        font-size:16px;
+        letter-spacing: 2px;
+        
+        &:hover{
+            color: #ffffff;
+            background-color: #335791;
+            border: 1px solid #fff;
+        }
+    }
+}
+#links{
+    margin: 10px auto;
+    text-align: center;
+
+    p.link-deco{
+        color: #fff;
+        display: inline;
+    }
+
+    a{
+        color: #fff;
+        font-size: 10px;
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-weight: 300;
+
+        &:hover{
+            color: #B395A5;
+        }
+    }
+}
