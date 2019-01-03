@@ -1,0 +1,14 @@
+{
+  "name": "survey_form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch style/scss -o style/css"
+  },
+  "author": "bguard",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.10.0"
+  }
+}
