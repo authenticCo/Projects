@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Open+Sans:400,700");
+body {
+  width: 100%;
+  height: auto;
+}
+
+nav {
+  background: #d3f0e7;
+}
+
+nav .navbar-brand {
+  font-weight: 500;
+}
+
+nav .navbar-brand img {
+  width: 35%;
+}
+
+nav a {
+  color: #000;
+}
+
+nav .purchase {
+  background: #000;
+  color: #fff;
+  border-radius: 0px;
+}
+
+nav ul li {
+  margin-right: 15px;
+}
+
+#header {
+  background: #d3f0e7;
+  width: 100%;
+  background-size: cover;
+  padding: 150px 0 0 0;
+  text-align: center;
+}
+
+#header .starter-template {
+  padding: 100px 0 100px 0;
+  position: relative;
+}
+
+#header .starter-template .mini-head {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: .75rem;
+}
+
+#header .starter-template h1 {
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 52px;
+  padding: 10px 0 15px 0;
+}
+
+#header .starter-template .lead {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+#header .starter-template button {
+  border: 1px solid #000;
+  border-radius: 0px;
+  padding: 8px 25px;
+  margin: 25px 0 50px 0;
+}
+
+#header .head-img {
+  background: url(../assets/img/site.png) no-repeat;
+  background-size: 100%;
+  height: 400px;
+  width: 75%;
+  margin: auto;
+}
+
+#discount {
+  padding: 25px;
+  display: inline;
+}
+
+#discount hr {
+  width: 85%;
+}
+
+#discount .mid-footer {
+  text-align: center;
+  padding: 0 25px;
+}
+
+#discount .disocunted {
+  font-size: 18px;
+  background: #000;
+  color: #fff;
+  border-radius: 50px;
+  padding: 2px 15px;
+  margin-right: 20px;
+  margin-left: 50px;
+}
+
+#discount .disc {
+  text-align: center;
+  padding: 0 50px;
+  letter-spacing: 1px;
+}
+
+#discount a {
+  color: #000;
+}
+
+#discount a i {
+  margin-left: 5px;
+}
+
+#statistics {
+  padding: 75px 0;
+}
+
+#statistics .stat h3 {
+  font-size: 42px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 3px;
+}
+
+#statistics .stat .tag {
+  margin: 15px auto;
+}
+
+#statistics .stat .description {
+  font-size: .95rem;
+  margin: 15px auto;
+}
+
+#features {
+  padding: 50px auto;
+  margin-bottom: 50px;
+}
+
+#features .left {
+  padding: 150px 25px;
+}
+
+#features .left i {
+  font-size: 30px;
+}
+
+#features .left h2 {
+  margin: 10px auto;
+  font-weight: 400;
+  font-size: 2.25rem;
+  letter-spacing: .5px;
+}
+
+#features .left .feature {
+  width: 375px;
+  font-size: 17px;
+  line-height: 30px;
+  margin: 0 0 20px 0;
+}
+
+#features .left .connect {
+  margin: 10px auto;
+}
+
+#features .left .connect i {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+#features .left .connect a {
+  color: #000;
+}
+
+#features .iphone {
+  background: url(../assets/img/hand.png) no-repeat;
+  background-size: contain;
+  width: 95%;
+}
+
+#social {
+  margin: 150px auto;
+}
+
+#social i {
+  font-size: 3rem;
+  padding-bottom: 25px;
+  color: #6C757D;
+}
+
+#social h2 {
+  font-weight: 400;
+  padding-bottom: 16px;
+}
+
+#social p {
+  width: 400px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+#social .connection i {
+  font-size: 1rem;
+}
+
+#social .connection a {
+  color: #000;
+}
+
+#key {
+  background-color: #F8F9FA;
+  padding: 150px 0;
+}
+
+#key h1 {
+  font-size: 50px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+#key p {
+  font-size: 1.25rem;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+#key .laptop img {
+  margin: -15px auto;
+}
+
+#key .buttons {
+  margin: 50px auto;
+}
+
+#key .buttons button {
+  border-radius: 5px;
+  padding: 15px 30px;
+  background-color: #d3f0e7;
+}
+
+#key .buttons button.about {
+  margin-left: 20px;
+  background-color: #545454;
+  color: #fff;
+}
+
+footer {
+  background-color: #F8F9FA;
+  padding: 50px auto;
+}
+
+footer p {
+  margin-left: 70px;
+  font-weight: 500;
+}
+
+footer .social-media {
+  background-color: #F8F9FA;
+}
+
+footer .social-media li {
+  display: inline;
+  margin-right: 10px;
+}
+
+footer .social-media li i {
+  color: #545454;
+}
+/*# sourceMappingURL=style.css.map */
