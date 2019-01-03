@@ -7,3 +7,6 @@
 - [Sign-Up Form](/sign-up/citybear.html)
 - [Skateboard Shop](/skatemore/skate.html)
 - [Vertical Split Landing](/split-it/index.html)
+- [Simple Subscribe Form](/simple-subscribe/subscribe.html)
+- [Studio Ghibli Tribute](/tribute_page/tribute.html)
+- [Vanilla One Page](/vanilla/index.html)
