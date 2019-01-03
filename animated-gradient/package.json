@@ -1,0 +1,18 @@
+{
+  "name": "animated-grade",
+  "version": "1.0.0",
+  "description": "Animated Gradient Single Page Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spa",
+    "one-pager",
+    "simple",
+    "animated",
+    "gradient"
+  ],
+  "author": "bguardian169",
+  "license": "ISC"
+}
