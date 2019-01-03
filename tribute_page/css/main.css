@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,400i,500i');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #B18188;
+    padding: 30px 0 0 0;
+}
+#img-div{
+    background-color: #B18188;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 18px;
+    font-size: 48px;
+}
+#img-div{
+    text-align: center;
+}
+#img-div img{
+    width: 50%;
+    padding: 125px 0 250px 0;
+}
+
+#img-caption{
+    background: #F7F5F5;
+    font-family: 'Raleway', sans-serif;
+    padding: 50px;
+    margin-top: 26px;
+
+}
+#img-caption h2{
+    font-size: 23px;
+    letter-spacing: 5px;
+    color: #5E3A4F;
+}
+
+/*TRIBUTE INFORMATON*/
+#tribute-info{
+    display: flex;
+    height: 600px;
+}
+#left-section{
+    background-image: url(../images/5ef756b9aab6f253848aa4e3edc1eb5dc015c62d_dxjswkwx4aidxgi.jpg);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    flex:55%;
+}
+
+#tribute-summary{
+    padding: 60px;
+    margin-top: 75px;
+    background-color: #fff;
+    text-align: right;
+    flex: 50%
+}
+#tribute-summary p{
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 45px;
+    color: #2D2030;
+}
+#tribute-summary a{
+    color: #D38281;
+    text-decoration: none;
+    font-size: 25px;
+}
+#tribute-summary a:hover{
+    color: #2D2030;
+    text-decoration: underline;
+}
+/*QUOTE SECTION*/
+#quote-section{
+    text-align: center;
+    padding: 25px 0;
+    color: #fff;
+    background-color: #B18188;
+}
+#quote-section .quote{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 30px;
+}
+.quote span{
+    font-style: italic;
+}
+
+#works{
+    background-color: #fff;
+    padding-top: 50px;
+}
+#works .row{
+    margin-top: 25px;
+}
+.card-deck,.card{
+    text-align: center;
+    color: #2D2030;
+}
+.card-deck p{
+    color: #B18188;
+    font-style: italic;
+    line-height: 5px;
+}
+.card-footer{
+    background-color: #5E3A4F;
+    color: #F7F5F5;
+    border-top: none;
+}
+
+#last{
+    margin: 25px auto;
+    width: 300px;
+}
+
+/*FOOTER*/
+footer{
+    margin: 0 auto;
+    background-color: #B18188;
+    padding: 50px 0;
+    color: #F7F5F5;
+}
+footer> p,footer > .footer-text{
+    margin: 0 auto;
+    text-transform:uppercase;
+    text-align: center;
+}
+footer p{
+    font-family: 'Raleway', sans-serif;
+    font-size:30px;
+    font-weight: 700;
+}
+footer .footer-text{
+    font-size: 18px;
+    font-weight:400;
+    line-height: 10px;
+}
