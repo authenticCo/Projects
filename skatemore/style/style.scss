@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400|Montserrat:400,600,700|Open+Sans:400,700|Raleway:400,500');
+
+//FONT FAMILIES
+$montserrat: 'Montserrat', sans-serif;
+$opensans: 'Open Sans', sans-serif;
+$raleway: 'Raleway', sans-serif;
+$merriweather: 'Merriweather', serif;
+
+//FONT WEIGHT
+$light: 300;
+$medium: 500;
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+
+//COLOR SCHEME
+$midnight: #252627;
+$off-white: #F2EFE9;
+$mauve: #564e58;
+$purple: #8E5D6B;
+$graay: #707070;
+$dark-blue: #373f51;
+
+
+header{
+    position: relative;
+    background-color: black;
+    height: 60vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #707070;
+    opacity: 0.2;
+    z-index: 1;
+}
+video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+    .container{
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+    .heading-text{
+        text-align: left;
+        font-family: $raleway;
+        h1{
+            letter-spacing: 2px;
+            font-weight: $medium;
+        }
+        h2{
+            margin-top: -10px;
+            font-weight: $light;
+            font-size: 30px;
+        }
+        button{
+            margin-top: 30px;
+            height: 40px !important;
+            width: 150px;
+        }
+    }
+}
+
+#signature-section{
+   padding: 50px;
+
+    .message{
+        font-family: $merriweather;
+        font-size: 22px;
+        line-height: 1.8rem;
+        font-weight: $light;
+        color: $graay;
+
+        .cap{
+            color: $mauve;
+            text-transform: uppercase;
+            font-weight: $medium;
+        }
+    }
+    .sig-title{
+        text-transform: uppercase;
+        font-family: $opensans;
+        font-weight: $semi-bold;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    .sig-wrap{
+        margin-top: -18px;
+
+        .signature{
+            background-image: url(../assets/img/SIGNATURE.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 200px;
+            height: 85px;
+            width: 100%;
+        }
+    }
+    button{
+        margin: 5px auto;
+        border: 1px solid $purple;
+        height: 50px;
+        width: 175px;
+        border-radius: 2px;
+
+        &:hover{
+            background-color: $purple;
+            color: #fff;
+            transition: all .3s ease-in-out;
+        }
+
+        a{
+            color: $purple;
+            text-transform: uppercase;
+            font-family: $opensans;
+            font-weight: $semi-bold;
+            font-size: 12px;
+
+            &:hover{
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+#main{
+    margin-left: 25px;
+    margin-right: 25px;
+    .big-section{
+        background-image: url(../assets/img/skateboarding-PQWRC9B.JPG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+
+        .content{
+            text-align: center;
+            color: #fff;
+
+            h3{
+                font-family: $opensans;
+                font-size: 28px;
+                font-weight: $bold;
+            }
+            .custom-button{
+                border: 1px solid #fff;
+                height: 45px;
+                width: 200px;
+                
+                a{
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-family: $opensans;
+                    font-weight: $semi-bold;
+                    font-size: 12px;
+                    border-radius: 1px !important;
+                }
+            }
+
+        }
+    }
+    .split{
+        margin-top: 25px;
+        height: 500px;
+
+        .col-sm-6{
+            max-width: 49.5% !important;
+        }
+
+        .lefty{
+            background-image: url(../assets/img/stylish-urban-girl-posing-with-longboard-GJKMDT4.jpg);
+            background-size: cover;
+            padding: 175px 0;
+        }
+        .content{
+            .leading{
+            font-family: $montserrat;
+            font-weight: $bold;
+            text-transform: uppercase;
+            font-size: 12px;
+            }
+            color: #fff;
+            h3{
+                font-family: $opensans;
+                font-size: 40px;
+                font-weight: $bold;
+                margin-top: -25px;
+            }
+            .btn-dark1{
+                color: #fff;
+                background-color: $midnight;
+                height: 40px;
+                width: 200px;
+                text-transform: uppercase;
+                font-size: 12px;
+                font-family: $opensans;
+                font-weight: $semi-bold;
+                border-radius: 0;
+                
+                &:hover{
+                    background-color: $graay;
+                }
+            }
+        }
+        .righty{
+            background-image: url(../assets/img/stylish-urban-girl-posing-with-longboard-GJKMDT4.jpg);
+            background-size: cover;
+            padding: 175px 0;
+        }
+        .ride{
+            background-image: url(../assets/img/bowlin.jpg);
+            background-size: cover;
+        }
+    }
+
+    .quartet{
+        .card{
+            border: none !important;
+            border-radius: 0px;
+        }
+        .card-body{
+            background: none;
+            border: none;
+
+            .mini-text{
+                color: #7f7f7f;
+                text-transform: uppercase;
+                font-weight: $regular;
+                font-size: .75rem;
+            }
+            h4{
+                font-size: 1.33rem;
+                margin-bottom: .5rem;
+                font-family: $montserrat;
+                font-weight: $bold;
+            }
+            .card-text{
+                color: #666;
+                display: inline-block;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+#products{
+    height: 500px;
+    margin-top: 75px;
+    .card{
+        border: none;
+    }
+    .card-title{
+        font-size: 1rem;
+        font-weight: $semi-bold;
+    }
+    .pricing{color: #666;
+        margin-top: 0px;
+        margin-bottom: 0;
+    }
+
+}
+
+
+.footer{
+    background-color: $dark-blue;
+    height: 400px;
+    padding-top: 4rem;
+
+    h4{
+        color: #e1e1e1;
+    }
+    .social a{
+        color: #1c1c1c;
+        text-decoration: none;
+        background-color: transparent;
+        margin-right: .25rem;
+        span{
+            display: inline-block;
+            height: 2.25em;
+            position: relative;
+            width: 2.25em;
+        }
+        i{
+            bottom: 0;
+            left: 9px;
+            margin: auto;
+            position: absolute;
+            right: 0;
+            top: 8px;
+        }
+        .border-300{
+            border-color: #e1e1e1;
+        }
+        .rounded-circle{
+            border-radius: 50% !important;
+        }
+        .border{
+            border: 1px solid #e1e1e1;
+        }
+    }
+    p{
+        color: #949494;
+        margin-bottom: 1rem;
+    }
+    input{
+        .input-group-append{
+            margin-left: -2px;
+        }
+    }
+    #links{
+        ul{
+            padding-left: 0;
+            list-style: none;
+
+            .text-500{
+               color: #fff;
+            }
+        }
+    }
+
+}
+
+

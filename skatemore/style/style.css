@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,400|Montserrat:400,600,700|Open+Sans:400,700|Raleway:400,500");
+header {
+  position: relative;
+  background-color: black;
+  height: 60vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  color: #fff;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #707070;
+  opacity: 0.2;
+  z-index: 1;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+header .heading-text {
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+}
+
+header .heading-text h1 {
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+header .heading-text h2 {
+  margin-top: -10px;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+header .heading-text button {
+  margin-top: 30px;
+  height: 40px !important;
+  width: 150px;
+}
+
+#signature-section {
+  padding: 50px;
+}
+
+#signature-section .message {
+  font-family: "Merriweather", serif;
+  font-size: 22px;
+  line-height: 1.8rem;
+  font-weight: 300;
+  color: #707070;
+}
+
+#signature-section .message .cap {
+  color: #564e58;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#signature-section .sig-title {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+#signature-section .sig-wrap {
+  margin-top: -18px;
+}
+
+#signature-section .sig-wrap .signature {
+  background-image: url(../assets/img/SIGNATURE.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 85px;
+  width: 100%;
+}
+
+#signature-section button {
+  margin: 5px auto;
+  border: 1px solid #8E5D6B;
+  height: 50px;
+  width: 175px;
+  border-radius: 2px;
+}
+
+#signature-section button:hover {
+  background-color: #8E5D6B;
+  color: #fff;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#signature-section button a {
+  color: #8E5D6B;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+#signature-section button a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#main {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#main .big-section {
+  background-image: url(../assets/img/skateboarding-PQWRC9B.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+
+#main .big-section .content {
+  text-align: center;
+  color: #fff;
+}
+
+#main .big-section .content h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#main .big-section .content .custom-button {
+  border: 1px solid #fff;
+  height: 45px;
+  width: 200px;
+}
+
+#main .big-section .content .custom-button a {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 1px !important;
+}
+
+#main .split {
+  margin-top: 25px;
+  height: 500px;
+}
+
+#main .split .col-sm-6 {
+  max-width: 49.5% !important;
+}
+
+#main .split .lefty {
+  background-image: url(../assets/img/stylish-urban-girl-posing-with-longboard-GJKMDT4.jpg);
+  background-size: cover;
+  padding: 175px 0;
+}
+
+#main .split .content {
+  color: #fff;
+}
+
+#main .split .content .leading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#main .split .content h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: -25px;
+}
+
+#main .split .content .btn-dark1 {
+  color: #fff;
+  background-color: #252627;
+  height: 40px;
+  width: 200px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  border-radius: 0;
+}
+
+#main .split .content .btn-dark1:hover {
+  background-color: #707070;
+}
+
+#main .split .righty {
+  background-image: url(../assets/img/stylish-urban-girl-posing-with-longboard-GJKMDT4.jpg);
+  background-size: cover;
+  padding: 175px 0;
+}
+
+#main .split .ride {
+  background-image: url(../assets/img/bowlin.jpg);
+  background-size: cover;
+}
+
+#main .quartet .card {
+  border: none !important;
+  border-radius: 0px;
+}
+
+#main .quartet .card-body {
+  background: none;
+  border: none;
+}
+
+#main .quartet .card-body .mini-text {
+  color: #7f7f7f;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: .75rem;
+}
+
+#main .quartet .card-body h4 {
+  font-size: 1.33rem;
+  margin-bottom: .5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+#main .quartet .card-body .card-text {
+  color: #666;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#products {
+  height: 500px;
+  margin-top: 75px;
+}
+
+#products .card {
+  border: none;
+}
+
+#products .card-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#products .pricing {
+  color: #666;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+.footer {
+  background-color: #373f51;
+  height: 400px;
+  padding-top: 4rem;
+}
+
+.footer h4 {
+  color: #e1e1e1;
+}
+
+.footer .social a {
+  color: #1c1c1c;
+  text-decoration: none;
+  background-color: transparent;
+  margin-right: .25rem;
+}
+
+.footer .social a span {
+  display: inline-block;
+  height: 2.25em;
+  position: relative;
+  width: 2.25em;
+}
+
+.footer .social a i {
+  bottom: 0;
+  left: 9px;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 8px;
+}
+
+.footer .social a .border-300 {
+  border-color: #e1e1e1;
+}
+
+.footer .social a .rounded-circle {
+  border-radius: 50% !important;
+}
+
+.footer .social a .border {
+  border: 1px solid #e1e1e1;
+}
+
+.footer p {
+  color: #949494;
+  margin-bottom: 1rem;
+}
+
+.footer input .input-group-append {
+  margin-left: -2px;
+}
+
+.footer #links ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer #links ul .text-500 {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
