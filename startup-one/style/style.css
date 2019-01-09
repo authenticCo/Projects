@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300i,300,400,600,700,800|Roboto:500,900");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+header {
+  background: url(../assets/img/nature-photographer-beautiful-nature-norway-PYQFHRK.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  position: relative;
+}
+
+header #overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #322C41;
+  opacity: .9;
+}
+
+header #inner {
+  padding: 10px 0 200px 0;
+}
+
+header #inner .navbar-brand {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+
+header #inner .social li {
+  margin-right: 10px;
+}
+
+header #inner .social li a {
+  color: #fff;
+}
+
+header .intro-header {
+  margin-top: 150px;
+  position: relative;
+}
+
+header .intro-header h1 {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 3rem;
+  padding-bottom: 8px;
+}
+
+header .intro-header .lead {
+  color: #F7F6F8;
+  font-size: 1em;
+  padding-bottom: 50px;
+}
+
+header .intro-header form button {
+  background-color: #70c3be;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 25px;
+  padding: 10px 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: .75em;
+}
+
+#summary {
+  background-color: #F7F6F8;
+  width: 100%;
+  padding: 45px 0 45px 0;
+}
+
+#summary .summarize {
+  text-align: left;
+  padding: 50px auto;
+}
+
+#summary .summarize h2 {
+  font-weight: 600;
+  margin-right: 35%;
+  padding-bottom: 16px;
+}
+
+#summary .summarize p {
+  color: #46484a;
+  letter-spacing: .5px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+#summary .summarize .summary-text {
+  font-size: 1em;
+  font-weight: 400;
+  margin-right: 30%;
+}
+
+#summary .summarize .second-text {
+  font-size: .90em;
+  margin-right: 8em;
+}
+
+#communicate #text {
+  padding-left: 50px;
+  margin: 150px 0 50px 0;
+}
+
+#communicate #text h2 {
+  font-weight: 600;
+  font-size: 2em;
+  padding-bottom: 16px;
+  padding-right: 5em;
+  line-height: 1.3em;
+}
+
+#communicate #text p {
+  color: #46484a;
+  font-weight: 300;
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+#communicate .selling-points {
+  margin-top: 3em;
+}
+
+#communicate .selling-points h4 {
+  color: #46484a;
+  padding-bottom: 12px;
+}
+
+#communicate .selling-points p {
+  font-size: .95em !important;
+  width: 86%;
+}
+
+#pros {
+  background-color: #F7F6F8;
+  padding: 100px 0 100px 0;
+}
+
+#pros .iconback {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+#pros .iconback i {
+  padding: 30px 0 25px 0;
+  font-size: 2.5em;
+}
+
+#pros h4 {
+  padding-top: 20px;
+}
+
+#pros p {
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: .9em;
+}
+
+#video {
+  padding: 75px 0 75px 0;
+}
+
+#video .video {
+  margin-bottom: 50px;
+}
+
+#video .video video {
+  width: 100%;
+  height: 100%;
+}
+
+#video .text {
+  padding-bottom: 50px;
+}
+
+#video .text h2 {
+  padding-bottom: 18px;
+}
+
+#video .text p {
+  width: 75%;
+  margin: 0 auto;
+  font-weight: 300;
+  color: #46484a;
+  font-size: 1.25em;
+}
+
+#pricing {
+  background-color: #F7F6F8;
+  padding: 50px 0 100px 0;
+}
+
+#pricing .price {
+  margin-top: 30px;
+}
+
+#pricing .price .card {
+  border: none;
+  padding: 30px 0 20px 0;
+}
+
+#pricing .price #custom-card2 {
+  background-color: #322C41 !important;
+  color: #fff;
+  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#pricing .price #custom-card2 .num {
+  font-size: 2em;
+  font-weight: 300;
+}
+
+#pricing .price #custom-card2 .price-break {
+  width: 30%;
+  margin: 0 auto;
+  border: 1px solid #fff;
+}
+
+#pricing .price #custom-card2 .features {
+  margin: 20px auto;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#pricing .price #custom-card2 .features li {
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+#pricing .price #custom-card2 .features li .mini {
+  font-weight: 700;
+}
+
+#pricing .price #custom-card {
+  background-color: #ffffff !important;
+}
+
+#pricing .price #custom-card h4 {
+  color: #46484a;
+}
+
+#pricing .price #custom-card .num {
+  font-size: 2em;
+  color: #46484a;
+  font-weight: 300;
+}
+
+#pricing .price #custom-card .price-break {
+  width: 30%;
+  margin: 0 auto;
+  border: 1px solid #46484a;
+}
+
+#pricing .price #custom-card .features {
+  margin: 20px auto;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#pricing .price #custom-card .features li {
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+#pricing .price #custom-card .features li .mini {
+  font-weight: 700;
+}
+
+#pricing .price button {
+  border: 2px solid #322C41;
+  width: 200px;
+  margin: 20px auto;
+  background-color: #fff;
+}
+
+#pricing .price button a {
+  color: #322C41;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .75em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#testimonials {
+  padding: 75px 0 75px 0;
+}
+
+#testimonials h2 {
+  padding-bottom: 20px;
+}
+
+#testimonials .min-bar {
+  width: 8%;
+  border: 2px solid #46484a;
+  opacity: .5;
+  margin: 0 auto;
+}
+
+#testimonials .testi {
+  margin: 25px auto;
+}
+
+#testimonials .testi img {
+  border-radius: 50%;
+  -webkit-filter: grayscale(90%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(90%);
+  padding: 25px;
+}
+
+#testimonials .testi .quote {
+  font-size: .9em;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#testimonials .testi .name {
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: -5px;
+}
+
+#contact {
+  background-color: #F7F6F8;
+  padding: 75px 0 75px 0;
+}
+
+#contact h2 {
+  color: #46484a;
+  padding-bottom: 25px;
+}
+
+#contact form button {
+  background-color: #70c3be;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 25px;
+  padding: 10px 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: .75em;
+}
+
+#footer {
+  background-color: #322C41;
+  padding: 20px 0 20px 0;
+}
+
+#footer p {
+  color: #fff;
+  font-weight: 300;
+  font-size: .85em;
+}
+
+#footer .social {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#footer .social li {
+  display: inline;
+}
+
+#footer .social .right > a {
+  margin-right: 15px;
+}
+
+#footer .social a {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
