@@ -10,3 +10,5 @@
 - [Simple Subscribe Form](/simple-subscribe/subscribe.html)
 - [Studio Ghibli Tribute](/tribute_page/tribute.html)
 - [Vanilla One Page](/vanilla/index.html)
+- [CSS Pricing Table](/price-table/index.html)
+- [Base One Pager](/startup-one/index.html)
