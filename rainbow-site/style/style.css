@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css?family=Karla|Rubik:400,500,700,900");
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body .main-wrapper {
+  background: linear-gradient(-45deg, rgba(255, 95, 109, 0.6), rgba(255, 195, 113, 0.6)), url(../assets/img/modern-interchange-road-with-city-skyline-PPA43RK.jpg) no-repeat;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#header {
+  background: #FF5F6D;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, right top, left top, from(#FFC371), to(#FF5F6D));
+  background: linear-gradient(to left, #FFC371, #FF5F6D);
+  color: #fff;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 5px 0 100px 0;
+}
+
+#header nav .navbar-brand img {
+  width: 15%;
+}
+
+#header nav .navbar-brand .brand-text {
+  color: #fff;
+  display: inline;
+  margin-left: 5px;
+  font-size: .75rem;
+  text-transform: uppercase;
+  font-family: "Karla", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+#header nav .navbar-nav a {
+  color: #F0F7EE;
+  text-transform: uppercase;
+  font-family: "Karla", sans-serif;
+}
+
+#header nav #custom-icon {
+  color: #fff;
+}
+
+#header .heading-text {
+  margin: 50px auto;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+}
+
+#header .heading-text h4 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#header .heading-text h1 {
+  font-weight: 700;
+  font-family: "Karla", sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+#header .heading-text button {
+  border: 1px solid #fff;
+  border-radius: 50px;
+  padding: 8px 30px;
+  margin-top: 18px;
+}
+
+#header .heading-text button a {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+#header .heading-text button a i {
+  margin-left: 10px;
+}
+
+#features {
+  background-color: #fff;
+  padding: 50px 20px 75px 25px;
+}
+
+#features .feature .icon {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+#features .feature .icon i {
+  background: -webkit-gradient(linear, right top, left top, from(#FFC371), to(#FF5F6D));
+  background: linear-gradient(to left, #FFC371, #FF5F6D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 15px;
+  border: 1px solid #D8D8D8;
+  font-size: 1.75rem;
+}
+
+#features .feature .text {
+  margin-top: 20px;
+  padding: 0 32px 0 16px;
+}
+
+#features .feature .text h4 {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: black;
+  padding-bottom: 15px;
+}
+
+#features .feature .text p {
+  color: #4F4F4F;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+#services {
+  background: #FF5F6D;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, right top, left top, from(#FFC371), to(#FF5F6D));
+  background: linear-gradient(to left, #FFC371, #FF5F6D);
+  color: #fff;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 100px 25px 100px 25px;
+}
+
+#services .header {
+  margin-bottom: 25px;
+}
+
+#services .header .lead-text {
+  text-transform: uppercase;
+  margin-top: -5px;
+}
+
+#services .card-deck {
+  margin-top: 25px;
+}
+
+#services .card-deck .card {
+  background: none;
+  bordeR: none;
+}
+
+#services .card-deck .card-body {
+  margin-top: 20px;
+  padding: 0 36px 0 0;
+}
+
+#services .card-deck .card-body h5 {
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+#services .card-deck .card-body .card-text {
+  font-size: .9rem;
+}
+
+#work {
+  padding: 75px 25px 75px 25px;
+  background-color: #fff;
+  /* Carousel base class */
+}
+
+#work .header {
+  margin-bottom: 25px;
+}
+
+#work .header .lead-text {
+  text-transform: uppercase;
+  margin-top: -5px;
+}
+
+#work .carousel {
+  margin-bottom: 4rem;
+}
+
+#work .carousel .carousel-item {
+  height: 32rem;
+}
+
+#work .carousel .carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+
+#work .carousel .carousel-text {
+  margin: 30px 0 10px 0;
+}
+
+#work .carousel .carousel-text h1 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  margin: 0px;
+}
+
+#work .carousel .carousel-text .carousel-cap {
+  color: #4F4F4F;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#work .carousel-indicators li {
+  background-color: #ff5f6d;
+}
+
+#get-started {
+  background: #FF5F6D;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, right top, left top, from(#FFC371), to(#FF5F6D));
+  background: linear-gradient(to left, #FFC371, #FF5F6D);
+  color: #fff;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+#get-started:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#get-started .text {
+  position: absolute;
+  z-index: inherit;
+}
+
+#get-started .background {
+  position: relative;
+  z-index: 2;
+}
+
+#get-started .background .right-side {
+  background: url(../assets/img/woman-explorer-lookig-at-jokulsarlon-lagoon-P7XVYEZ.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 400px;
+}
+
+#get-started .background .left-side {
+  background: -webkit-gradient(linear, right top, left top, from(#FFC371), to(#FF5F6D));
+  background: linear-gradient(to left, #FFC371, #FF5F6D);
+}
+
+#get-started .background .left-side .text-container {
+  margin: 150px 0 0 0;
+}
+
+#get-started .background .left-side .text-container .subheading {
+  text-transform: uppercase;
+  margin-top: -5px;
+}
+
+#get-started .solo-box {
+  background-color: #fff;
+  position: relative;
+  width: 450px;
+  height: 300px;
+  top: 50px;
+  left: 70%;
+  padding: 18px;
+  z-index: 3;
+}
+
+#get-started .solo-box .text-box {
+  padding: 50px;
+  color: black;
+  padding: 25px 50px;
+}
+
+#get-started .solo-box .text-box h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+#get-started .solo-box .text-box p {
+  margin-top: 20px;
+  color: #4F4F4F;
+  font-size: 1rem;
+  opacity: .9;
+}
+
+#get-started .solo-box button {
+  background: -webkit-gradient(linear, right top, left top, from(#FFC371), to(#FF5F6D));
+  background: linear-gradient(to left, #FFC371, #FF5F6D);
+  border-radius: 50px;
+  color: #fff;
+  padding: 8px 30px;
+}
+
+#get-started .solo-box button i {
+  margin-left: 10px;
+}
+
+#subscribe {
+  background-color: #fff;
+  padding: 75px;
+  color: #4F4F4F;
+}
+
+#subscribe h2 {
+  color: black;
+}
+
+#subscribe .leading-text {
+  text-transform: uppercase;
+  color: #4F4F4F;
+  opacity: .8;
+  margin-top: -5px;
+}
+
+#subscribe form {
+  border: none;
+}
+
+#subscribe form input {
+  background-color: #F8F9FA;
+  border-radius: 50px 0 0 50px;
+  font-size: .9rem;
+  border: none;
+  width: 50%;
+}
+
+#subscribe form button {
+  border-radius: 50px;
+  margin-left: -30px;
+  background: -webkit-gradient(linear, right top, left top, from(#FFC371), to(#FF5F6D));
+  background: linear-gradient(to left, #FFC371, #FF5F6D);
+  border: none;
+}
+
+#subscribe form button i {
+  margin-left: 10px;
+}
+
+#features-trans {
+  padding: 75px 0 50px 75px;
+  color: #fff;
+}
+
+#features-trans .foot-feature .icon {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+#features-trans .foot-feature .icon i {
+  color: #fff;
+  padding: 15px;
+  border: 1px solid #D8D8D8;
+  font-size: 1.75rem;
+}
+
+#features-trans .foot-feature .text {
+  margin-top: 20px;
+  padding: 0 32px 0 16px;
+}
+
+#features-trans .foot-feature .text h4 {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+#features-trans .foot-feature .text p {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+#footer {
+  background: #fff;
+  padding: 18px 0 18px 0;
+}
+/*# sourceMappingURL=style.css.map */
